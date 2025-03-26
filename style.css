@@ -1,0 +1,24 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: url('background.png') no-repeat center center;
+  background-size: cover;
+}
+#gameOverScreen, #winScreen {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
